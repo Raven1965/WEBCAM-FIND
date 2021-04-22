@@ -65,6 +65,10 @@ elif [[ $secim == 2 ]];then
 	echo
 	sleep 2
 	curl -L -s -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" http://www.insecam.org/en/bycountry/US |grep -o src=\"http://[^,]\*\" |awk '{print $1}' |grep -o \"[^,]\*\" |tr -d '"'
+#	curl -L -s -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" http://www.insecam.org/en/bycountry/US/?page=2 |grep -o src=\"http://[^,]\*\" |awk '{print $1}' |grep -o \"[^,]\*\" |tr -d '"'
+#	curl -L -s -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" http://www.insecam.org/en/bycountry/US/?page=3 |grep -o src=\"http://[^,]\*\" |awk '{print $1}' |grep -o \"[^,]\*\" |tr -d '"'
+#	curl -L -s -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" http://www.insecam.org/en/bycountry/US/?page=4 |grep -o src=\"http://[^,]\*\" |awk '{print $1}' |grep -o \"[^,]\*\" |tr -d '"'
+#	curl -L -s -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" http://www.insecam.org/en/bycountry/US/?page=5 |grep -o src=\"http://[^,]\*\" |awk '{print $1}' |grep -o \"[^,]\*\" |tr -d '"'
 	exit
 
 elif [[ $secim == 3 ]];then

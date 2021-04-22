@@ -47,7 +47,7 @@ $color
 
                          \e[33mSON GÜNCELLEME :\e[0m $(cd .. && sed -n 3p README.md |tr -d "Güncelleme ")
          \e[1;97m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-              $color C O D E D   B Y   U M U T   K A R A
+              $color C O D E D   B Y   R Ə V A N
          \e[97m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 	 \e[97m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 	          $color T E R M U X X   T O O L S S

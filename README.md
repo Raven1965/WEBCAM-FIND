@@ -1,6 +1,6 @@
 WEBCAM-FIND
 
-Güncelleme 11.04.2021
+Güncelleme 22.04.2021
 
 GİTHUB    : https://github.com/termuxxtoolss 
 
