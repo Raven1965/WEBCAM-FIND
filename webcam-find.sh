@@ -208,7 +208,7 @@ elif [[ $secim == 10 ]];then
 	printf "\e[32m[!]\e[97m BİLGİLER ALINIYOR..."
 	echo
 	echo
-	echo
+	echo 
 	sleep 2
 	curl -L -s -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" http://www.insecam.org/en/bycountry/tr/?page=$number |grep -o src=\"http://[^,]\*\" |grep -o http[^,]\* |awk -F '"' '{print $1}'
 	total="21"
